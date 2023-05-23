@@ -27,7 +27,7 @@ function scheduleMeetings(meetings,rooms){
 }
 
 
-meetings=[
+let meetings=[
     {start:new Date("2023-05-23T00:26:00+05:30"),end:new Date("2023-05-23T01:27:00+05:30")},
     {start:new Date("2023-05-23T01:33:00+05:30"),end:new Date("2023-05-23T02:08:00+05:30")},
     {start:new Date("2023-05-23T03:09:00+05:30"),end:new Date("2023-05-23T03:41:00+05:30")},
@@ -44,6 +44,7 @@ meetings=[
     {start:new Date("2023-05-23T20:44:00+05:30"),end:new Date("2023-05-23T22:08:00+05:30")},
     {start:new Date("2023-05-23T21:48:00+05:30"),end:new Date("2023-05-23T22:21:00+05:30")},
 ]
+let rooms=3
 
-console.log(scheduleMeetings(meetings,3))
+console.log(scheduleMeetings(meetings,rooms))
  
